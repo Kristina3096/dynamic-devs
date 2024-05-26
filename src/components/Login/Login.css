@@ -1,0 +1,16 @@
+.bg-primary{
+    background-image: url('../../assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.btn-success{
+    background-color:#c96cc6;
+    border-color: #c96cc6;
+}
+.btn-success:hover{
+    background-color:#883185;
+    border-color: #883185;
+    
+}
