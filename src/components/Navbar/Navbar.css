@@ -1,0 +1,13 @@
+.navbar {
+  box-shadow: 15px 15px 35px rgb(243, 204, 243);
+}
+.navbar-custom {
+  background-color: white;
+}
+
+.nav-link.active-link {
+  color: plum;
+}
+.navbar-nav {
+  text-align: right;
+}
