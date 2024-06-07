@@ -3,16 +3,16 @@ import Login from "./components/Login/Login";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Signup from "./components/Signup/Signup";
 import React from "react";
-import NavigationBar from "./components/Navbar/Navbar";
+import Home from './pages/Homescreen';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
+      <Route path="/signup" element={<Signup />}></Route>
         <Route path="/" element={<Login />}></Route>
-        <Route path="/signup" element={<Signup />}></Route>
+        <Route path='/home'element={<Home/>}></Route>
       </Routes>
-      <NavigationBar />
     </BrowserRouter>
   );
 }

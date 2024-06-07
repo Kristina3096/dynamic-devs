@@ -1,0 +1,68 @@
+{
+
+    "skills": [
+        {
+          "id": "1",
+          "src": "./img/bootstrap.png",
+          "title": "Bootstrap"
+          
+        },
+        {
+          "id": "2",
+          "src": "./img/css.png",
+          "title": "Css"
+         
+        },
+        {
+          "id": "3",
+          "src": "./img/nodejs.png",
+          "title": "Node Js"
+          
+        },
+        {
+          "id": "4",
+          "src": "./img/html.png",
+          "title": "HTML"
+         
+        },
+        {
+            "id": "5",
+            "src": "./img/js.png",
+            "title": "JavaScript"
+        
+          },
+          {
+            "id": "6",
+            "src": "./img/reactjs.png",
+            "title": "React Js"
+          },
+          {
+            "id": "7",
+            "src": "./img/mysql.png",
+            "title": "MySql"
+          }
+    ],
+    "portfolio": [
+      {
+        "id": "1",
+        "src": "./img/placeholder-image.png",
+        "title": "House",
+        "description": "This project aims to develop a web application for managing a modern home using the React.js library. The application will facilitate the management of various home systems, including lighting, heating, security.",
+        "link": "View In Github"
+      },
+      {
+        "id": "2",
+        "src": "./img/placeholder-image-1.png",
+        "title": "App Dashboard",
+        "description": "This project aims to develop a web application dashboard using the React.js library. The dashboard will provide users with a centralized interface to monitor and manage key metrics and data in real-time.",
+        "link": "View In Github"
+      },
+      {
+        "id": "3",
+        "src": "./img/placeholder-image-2.png",
+        "title": "Easy Rentn",
+        "description": "This project aims to develop a web platform that simplifies the process of renting and leasing properties, providing an easy-to-use interface for managing relationships between landlords and tenants.",
+        "link": "View In Github"
+      }
+    ]
+ }
