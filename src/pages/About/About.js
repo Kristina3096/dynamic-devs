@@ -1,6 +1,7 @@
 import "./About.css"
 import "../../App.css"
 import usImage from "../../assets/about/usImage.png"
+import { Link } from "react-router-dom";
 
  function AboutMe() {
   return (
@@ -19,7 +20,11 @@ import usImage from "../../assets/about/usImage.png"
              unique skills and ideas, contributing to the collective success of the group...
           </p>
           <div>
-          <button className="btn btn-primary" >See more</button>
+          <button className="btn btn-primary" >
+            <Link  to="/aboutus" className="no-underline">
+            See more
+            </Link>
+            </button>
         </div>
         </div>
       </div>

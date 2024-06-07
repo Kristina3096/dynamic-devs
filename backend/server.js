@@ -51,6 +51,7 @@ check('password', "password length 8-10").isLength({ min: 8, max: 10 })],
             }
         })
     })
+    
 app.listen(8081, () => {
     console.log("listening");
 })

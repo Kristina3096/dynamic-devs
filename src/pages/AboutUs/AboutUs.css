@@ -1,0 +1,133 @@
+.portfolio--section {
+    display: flex;
+    padding: 112px 85px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+    box-shadow: 15px 15px 35px rgb(248, 220, 248);
+    background-color: #f8e6f8;
+  }
+  .portfolio--container-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .portfolio--container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 21.3px;
+  }
+  .portfolio--section--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 42.6px;
+    width: 100%;
+  }
+  .portfolio--section--img {
+    border-radius: 8px;
+    width: 100%;
+  }
+  .portfolio--section--img > img {
+    width: 100%;
+  }
+  .portfolio--section--card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+    background: #ffe4ff;
+    box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  .portfolio--section--card--content {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+  }
+  .portfolio--section--title {
+    color: var(--heading-color);
+  }
+  .portfolio--link {
+    text-decoration: none;
+    display: flex;
+    gap: 16px;
+    border-bottom: 1.33px solid var(--primary);
+    padding-bottom: 10.6px;
+    font-weight: 600;
+  }
+  .portfolio--section--card:hover path {
+    stroke: #fa9fee;
+  }
+  .btn.btn-github{
+    border-color: plum;
+  }
+  .portfolio--section--container .portfolio--section--card button {
+    background-color: plum; /* Ngjyra roz për butonat brenda kartave */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .portfolio--section--container .portfolio--section--card button:hover {
+    opacity: 0.8;
+  }
+  
+  .form-container {
+    background-color: #f8e6f8; /* Ngjyra e fushës së formës */
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-container button {
+    background-color:plum; /* Ngjyra roz për butonin Create */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    opacity: 0.8;
+  }
+  @media only screen and (max-width: 1200px) {
+    .portfolio--section--container,
+    .portfolio--container-box {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .portfolio--container {
+      align-items: center;
+    }
+    .portfolio--container-box {
+      gap: 30px;
+    }
+
+    .sections--heading {
+      font-size: 35px;
+      line-height: 40px;
+    }
+  }

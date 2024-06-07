@@ -6,6 +6,7 @@ import Contact from "../Contact/Contact";
 import NavigationBar from "../../components/Navbar/Navbar";
 
 
+
 function Home (){
     return(
         <>

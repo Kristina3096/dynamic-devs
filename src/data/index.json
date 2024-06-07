@@ -64,5 +64,31 @@
         "description": "This project aims to develop a web platform that simplifies the process of renting and leasing properties, providing an easy-to-use interface for managing relationships between landlords and tenants.",
         "link": "View In Github"
       }
+    ],
+    "aboutUs": [
+      {
+        "id": "1",
+        "src": "./img/placeholder-image-6.png",
+        "title": "Gloria Kapxhiu",
+        "description": "Gloria Kapxhiu, 22 years old, is a example of dedication and passion in the world of computer science. After completing her studies at the Faculty of Natural Sciences for Computer Science, she chose to continue her professional development path through a specialized programming course at Sda by Protik."
+      },
+      {
+        "id": "2",
+        "src": "./img/placeholder-image-4.png",
+        "title": "Kristina Braho",
+        "description": "Kristina Braho is a passionate professional at the age of 27 with a special sensitivity to the fields of technology and literature. After graduating with a degree in Language and Literature, she chose to broaden her horizons by taking a programming course at Sda by Protik."
+      },
+      {
+        "id": "3",
+        "src": "./img/placeholder-image-3.png",
+        "title": "Enrika Shguni",
+        "description": "Enrika Shguni, at the age of 22, is a student at Beder University College majoring in computer science. With a genuine passion for technology and a desire to expand her knowledge, she chose to enhance her skills by completing a course at Sda by Protik."
+      },
+      {
+        "id": "4",
+        "src": "./img/placeholder-image-5.png",
+        "title": "Namik Osmeni",
+        "description": "Namik Osmeni, 21 years old, is a passionate individual about the world of computer science. With a strong desire to explore and develop his knowledge in the field of technology, he chose to advance in his educational and professional development path by taking a course at Sda by Protik."
+      }
     ]
  }
