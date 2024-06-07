@@ -1,0 +1,54 @@
+/* Për stilizimin e përgjithshëm të modalit */
+.modal {
+    position: fixed; /* Qëndron në të njëjtin vend në ekran kur lëvizni */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; /* Qëndron horizontalisht në qendër */
+    align-items: center; /* Qëndron vertikalisht në qendër */
+    background-color: rgba(0, 0, 0, 0.5); /* Sfoni i zbehtë për të dhënë efektin e errësimit */
+    z-index: 1000; /* Siguron që modali të jetë mbi të gjitha elementet e tjera */
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%; /* Përqindje për t'u përshtatur në ekran të ndryshëm */
+    max-width: 400px; /* Maksimumi për të kufizuar madhësinë e modalit */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Hije për efektin e ngritjes */
+    text-align: center; /* Teksti në qendër */
+    transform: translateY(-10%); /* Lëvizja e lehtë lart për efekt vizual */
+    animation: slideDown 0.3s ease-in-out; /* Animacion për të shfaqur modalin */
+  }
+  
+  .modal-content p {
+    margin-bottom: 20px; /* Hapësirë midis pyetjes dhe butonave */
+  }
+  
+  .modal-content button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: plum;
+    color: white;
+    transition: background-color 0.2s;
+  }
+  
+  .modal-content button:hover {
+    background-color:plum; /* Ndryshimi i ngjyrës kur butoni është mbi */
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: translateY(-50%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  

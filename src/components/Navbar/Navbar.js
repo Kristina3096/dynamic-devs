@@ -106,6 +106,7 @@ function NavigationBar() {
           </Nav>
         </Navbar.Collapse>
       </div>
+      
     </Navbar>
   );
 }

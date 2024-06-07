@@ -5,7 +5,7 @@ import './Contact.css';
   return (
     <section id="contact" className="contact--section">
       <div>
-        <h2>Contact Me</h2>
+        <h2>Contact Us</h2>
         <p className="text-lg">
         If you have any questions or would like to contact us, please send an Message. <br/>Thank you!
         </p>
