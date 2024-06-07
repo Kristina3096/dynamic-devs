@@ -14,7 +14,7 @@ function Validation(values){
         error.email="Email should not be empty"
     }
     else if(!email_pattern.test(values.email)){
-        error.email="Email Didn't match"
+        error.email="Please enter a valid email address"
     }else{
         error.email=""
     }
@@ -24,7 +24,7 @@ function Validation(values){
         error.password="Password should not be empty"
     }
     else if(!password_pattern.test(values.password)){
-        error.password="Password Didn't match"
+        error.password="Password must be between 8 and 10 characters long and include both letters and numbers."
     }else{
         error.password=""
     }

@@ -1,0 +1,51 @@
+.about--section {
+    display: grid;
+    padding: 133.3px 85.3px;
+    align-items: center;
+    gap: 114.6px;
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: 15px 15px 35px rgb(248, 220, 248);
+  }
+  .about--section--img > img {
+    width: 90%;
+    height: 90%;
+  }
+  .btn.btn-primary{
+    border-color:  plum;
+    color: rgb(12, 12, 12);
+    background-color: rgb(194, 133, 191);
+  }
+  @media only screen and (max-width: 1200px) {
+    .btn-outline-primary {
+      display: none;
+    }
+    .hero--section--title,
+    .hero--section-description{
+      text-align: center;
+    }
+    
+    .about--section {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .hero--section--content,
+    .hero--section--content--box {
+      align-items: center;
+    }
+    
+    .about--section {
+      gap: 20px;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    
+    .skills--section--heading,
+    .sections--heading {
+      font-size: 35px;
+      line-height: 40px;
+    }
+    .hero--section--content--box {
+      gap: 10px;
+    }
+  }

@@ -14,3 +14,13 @@
     border-color: #883185;
     
 }
+.checkbox--label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10.6px;
+    flex: 1 0 0;
+    justify-content: flex-start;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

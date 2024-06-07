@@ -13,3 +13,7 @@
     border-color: #883185;
     
 }
+.checkbox--label{
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
